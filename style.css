@@ -152,12 +152,21 @@ header ul li{
     font-size: 24px;
     color:  rgba(0, 0, 0, 0.87);
     margin-bottom: 6px;
+    font-weight: normal;
 }
 
 .product-details p{
     font-size: 14px;
     line-height: 20px;
     color: #787885;
+}
+
+#descrition {
+color: #787885;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.018em;
+margin-top: 6px;
 }
 
 .product-details .fas {
@@ -297,3 +306,123 @@ footer header .fa-copyright{
 }
 
 /* popular collection section ends here */
+
+
+/* media query */
+
+/* for mobile devices */
+@media only screen and (max-width:767px) {
+    .journey-start{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .influencer-camera img{
+        margin-top: 50px;
+    }
+
+    .popular-collection{
+        margin:auto;
+    }
+
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+.sponsors img{
+    margin-top: 20px;
+}
+
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-review{
+        margin-top: 50px;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review{
+        margin-bottom: 50px;
+    }
+
+}
+
+
+/* for tablet devices */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .journey-start{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .influencer-camera img{
+        margin-top: 50px;
+    }
+
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .sponsors img{
+        margin-top: 20px;
+    }
+    .popular-collection{
+        margin:auto;
+    }
+
+    .products{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+
+    .user-review{
+        margin-top: 50px;
+
+    }
+
+    .reviews {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .review{
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+
+/* for dextop or laptop */
+@media only screen and (min-width:1024px) {
+
+    .journey-start{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reviews{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
