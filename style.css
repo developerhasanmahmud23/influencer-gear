@@ -316,6 +316,7 @@ footer header .fa-copyright{
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
     .influencer-camera img{
         margin-top: 50px;
@@ -328,6 +329,7 @@ footer header .fa-copyright{
     .sponsors{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        width:100%;
     }
 
 .sponsors img{
@@ -341,6 +343,7 @@ footer header .fa-copyright{
 
     .user-review{
         margin-top: 50px;
+        width: 100%;
     }
 
     .reviews {
@@ -352,6 +355,9 @@ footer header .fa-copyright{
         margin-bottom: 50px;
     }
 
+    footer{
+        width: 100%;
+    }
 }
 
 
@@ -361,6 +367,7 @@ footer header .fa-copyright{
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
     .influencer-camera img{
         margin-top: 50px;
@@ -369,6 +376,7 @@ footer header .fa-copyright{
     .sponsors{
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        width: 100%;
     }
 
     .sponsors img{
@@ -376,6 +384,7 @@ footer header .fa-copyright{
     }
     .popular-collection{
         margin:auto;
+        width: 100%;
     }
 
     .products{
@@ -386,6 +395,7 @@ footer header .fa-copyright{
 
     .user-review{
         margin-top: 50px;
+        width: 100%;
 
     }
 
@@ -396,6 +406,10 @@ footer header .fa-copyright{
 
     .review{
         margin-bottom: 30px;
+    }
+
+    footer{
+        width: 100%;
     }
 
 
