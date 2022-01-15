@@ -416,6 +416,7 @@ footer header .fa-copyright{
         grid-template-columns: repeat(3, 1fr);
     }
 
+    
     .reviews{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
