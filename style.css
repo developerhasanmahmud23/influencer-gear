@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-main{
-    width: 90%;
-    margin:0px auto;
+.container{
+    width: 80%;
+    margin: 0px auto;
 
 }
 
@@ -23,11 +23,11 @@ main{
 header>h1{
     font-size: 24px;
     color: #3A3A3A;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
-.nav-links{
+/* .nav-links{
     margin-right: 120px;
-}
+} */
 
 header ul{
     display: flex;
@@ -44,11 +44,12 @@ header ul li{
 }
 
 .journey-start{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 100px;
+    align-items: center;
 }
+
 
 .book-now{
     background: #E02C6D;
@@ -64,6 +65,9 @@ header ul li{
 
 .influencer-camera{
     width: 60%;
+}
+.influencer-camera img{
+    margin-left: 50px;
 }
 .influencer-camera:hover{
     transform: scale(1.2);
@@ -113,7 +117,7 @@ header ul li{
 }
 
 .product{
-    width: 329px;
+    width: 266px;
     height: 476px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
